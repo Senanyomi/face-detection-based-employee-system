@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import datetime; print\\(datetime.datetime.utcfromtimestamp\\(1784538217\\)\\)\")",
+      "Bash(python -c \"import datetime; print\\(datetime.datetime.utcfromtimestamp\\(1784538217\\)\\)\")",
+      "Bash(cp \"C:\\\\Users\\\\senan\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-senan-Documents-emprod\\\\ae5b58a4-b3f5-4133-b2be-638c0c24337c\\\\scratchpad\\\\screenshot.mjs\" \"c:\\\\Users\\\\senan\\\\Documents\\\\emprod\\\\emprod-frontend\\\\_visual_check.mjs\")",
+      "Bash(node _visual_check.mjs)"
+    ]
+  }
+}

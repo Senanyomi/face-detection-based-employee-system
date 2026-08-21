@@ -1,0 +1,7 @@
+opencv-python
+numpy
+tensorflow
+h5py
+mediapipe
+ultralytics
+requests

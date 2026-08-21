@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 15px;
+  --background: #ffffff;
+  --foreground: #0b0f19;
+  --card: #f8f9fa;
+  --card-foreground: #0b0f19;
+  --popover: #ffffff;
+  --popover-foreground: #0b0f19;
+  --primary: #002fa7;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f5f7;
+  --secondary-foreground: #1f2937;
+  --muted: #f3f4f6;
+  --muted-foreground: #4b5563;
+  --accent: #e6ebf9;
+  --accent-foreground: #002fa7;
+  --destructive: #b91c1c;
+  --destructive-foreground: #ffffff;
+  --destructive-light: #fdecec;
+  --border: #d1d5db;
+  --input: #ffffff;
+  --input-background: #f8f9fa;
+  --ring: #002fa7;
+  --radius: 1rem;
+
+  --brand: #002fa7;
+  --brand-light: #e6ebf9;
+  --brand-dark: #001d6b;
+  --cyan-glow: #0f766e;
+  --gold: #d97706;
+  --gold-light: #fef3c7;
+
+  --success: #16a34a;
+  --success-light: #f0fdf4;
+  --warning: #d97706;
+  --warning-light: #fffbeb;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0b0f19;
+  --sidebar-muted: #4b5563;
+  --sidebar-accent: #002fa7;
+  --sidebar-border: #d1d5db;
+
+  --chart-1: #002fa7;
+  --chart-2: #0f766e;
+  --chart-3: #15803d;
+  --chart-4: #d97706;
+  --chart-5: #b91c1c;
+}
+
+.dark {
+  --background: #0b1120;
+  --foreground: #f8fafc;
+  --card: #131c2e;
+  --card-foreground: #f8fafc;
+  --popover: #111827;
+  --popover-foreground: #f8fafc;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #1e293b;
+  --secondary-foreground: #cbd5e1;
+  --muted: #172033;
+  --muted-foreground: #94a3b8;
+  --accent: #182a4d;
+  --accent-foreground: #f8fafc;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --destructive-light: #3a1414;
+  --border: #24304a;
+  --input: #1a2436;
+  --input-background: #141d2f;
+  --ring: #2563eb;
+
+  --brand: #2563eb;
+  --brand-light: #182a4d;
+  --brand-dark: #1d4ed8;
+  --cyan-glow: #06b6d4;
+  --gold: #f59e0b;
+  --gold-light: #3a2a12;
+
+  --success: #22c55e;
+  --success-light: #113322;
+  --warning: #f59e0b;
+  --warning-light: #3a2a12;
+
+  --sidebar: #0d1526;
+  --sidebar-foreground: #f8fafc;
+  --sidebar-muted: #94a3b8;
+  --sidebar-accent: #2563eb;
+  --sidebar-border: #24304a;
+
+  --chart-1: #2563eb;
+  --chart-2: #06b6d4;
+  --chart-3: #22c55e;
+  --chart-4: #f59e0b;
+  --chart-5: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive-light: var(--destructive-light);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-ring: var(--ring);
+
+  --color-brand: var(--brand);
+  --color-brand-light: var(--brand-light);
+  --color-brand-dark: var(--brand-dark);
+  --color-cyan-glow: var(--cyan-glow);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-success: var(--success);
+  --color-success-light: var(--success-light);
+  --color-warning: var(--warning);
+  --color-warning-light: var(--warning-light);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-muted: var(--sidebar-muted);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/*
+ * Kept inside @layer base so these plain-element defaults stay below
+ * Tailwind's utility layer in the cascade — anything left unlayered here
+ * would beat utility classes (mb-4, p-8, ...) regardless of specificity,
+ * which is exactly the bug that was silently zeroing every margin/padding
+ * utility in the app via a stray unlayered `* { margin: 0; padding: 0; }`.
+ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: var(--font-size);
+    background: var(--background);
+    color: var(--foreground);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button, input, select, textarea {
+    font-family: inherit;
+  }
+
+  a {
+    color: var(--brand);
+  }
+
+  a:hover {
+    color: var(--brand-dark);
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}

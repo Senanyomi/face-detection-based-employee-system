@@ -1,0 +1,102 @@
+services:
+  - type: web
+    name: auth-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    startCommand: uvicorn auth_service.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: JWT_EXPIRE_MINUTES
+        value: "60"
+      - key: ENVIRONMENT
+        value: production
+
+  - type: web
+    name: attendance-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    startCommand: uvicorn attendance_service.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: ENVIRONMENT
+        value: production
+
+  - type: web
+    name: analytics-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    startCommand: uvicorn analytics_service.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: ENVIRONMENT
+        value: production
+
+  - type: web
+    name: device-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    startCommand: uvicorn device_service.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: ENVIRONMENT
+        value: production
+
+  - type: web
+    name: audit-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    startCommand: uvicorn audit_service.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: ENVIRONMENT
+        value: production

@@ -1,0 +1,22 @@
+﻿python : WARNING: All log messages before absl::InitializeLog() is called are 
+written to STDERR
+At line:1 char:66
++ ... end\face-entance"; python face_ver.py > face_ver_run_output3.txt 2>&1
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: All lo...itten to STDERR 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+I0000 00:00:1784034193.639499    5352 port.cc:153] oneDNN custom operations 
+are on. You may see slightly different numerical results due to floating-point 
+round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written 
+to STDERR
+I0000 00:00:1784034199.785718    5352 port.cc:153] oneDNN custom operations 
+are on. You may see slightly different numerical results due to floating-point 
+round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Logging predictions to predictions_log.csv
+No frame received, stopping stream
+Prediction log saved to predictions_log.csv

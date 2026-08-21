@@ -1,0 +1,131 @@
+{
+  "working_status": "NOT-WORKING",
+  "timestamp": "2026-08-20T19:07:18.475717+00:00",
+  "timestamp_epoch": 1787252838,
+  "active_workers_count": 1,
+  "working_workers_count": 0,
+  "workers": {
+    "18": {
+      "status": "NOT-WORKING",
+      "is_facing_screen": false,
+      "hands_on_keyboard": false,
+      "equipment": {},
+      "bbox": [
+        800,
+        279,
+        1352,
+        1138
+      ],
+      "centroid": [
+        1076,
+        708
+      ]
+    }
+  },
+  "1787252778472": {
+    "prints": [
+      [
+        1787252778188,
+        "Loading YOLOv8 Models..."
+      ],
+      [
+        1787252778304,
+        "Loading MediaPipe Pose Landmarker..."
+      ]
+    ],
+    "live": {
+      "system_epoch_time": 0,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-20T19:06:18.472136+00:00",
+      "timestamp_epoch": 1787252778,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "latest_status": {
+    "working_status": "NOT-WORKING",
+    "timestamp": "2026-08-20T19:07:18.475717+00:00",
+    "timestamp_epoch": 1787252838,
+    "active_workers_count": 1,
+    "working_workers_count": 0,
+    "workers": {
+      "18": {
+        "status": "NOT-WORKING",
+        "is_facing_screen": false,
+        "hands_on_keyboard": false,
+        "equipment": {},
+        "bbox": [
+          800,
+          279,
+          1352,
+          1138
+        ],
+        "centroid": [
+          1076,
+          708
+        ]
+      }
+    }
+  },
+  "latest_status_timestamp": "2026-08-20T19:07:18.475717+00:00",
+  "1787252838475": {
+    "prints": [
+      [
+        1787252779021,
+        "\n>>> Local AI Engine Is Running Successfully! <<<"
+      ]
+    ],
+    "live": {
+      "system_epoch_time": 1787252838.1999414,
+      "active_workers_count": 1,
+      "workers": {
+        "18": {
+          "status": "NOT-WORKING",
+          "is_facing_screen": false,
+          "hands_on_keyboard": false,
+          "equipment": {},
+          "bbox": [
+            800,
+            279,
+            1352,
+            1138
+          ],
+          "centroid": [
+            1076,
+            708
+          ]
+        }
+      }
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-20T19:07:18.475717+00:00",
+      "timestamp_epoch": 1787252838,
+      "active_workers_count": 1,
+      "working_workers_count": 0,
+      "workers": {
+        "18": {
+          "status": "NOT-WORKING",
+          "is_facing_screen": false,
+          "hands_on_keyboard": false,
+          "equipment": {},
+          "bbox": [
+            800,
+            279,
+            1352,
+            1138
+          ],
+          "centroid": [
+            1076,
+            708
+          ]
+        }
+      }
+    }
+  }
+}

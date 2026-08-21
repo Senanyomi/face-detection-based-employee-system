@@ -1,0 +1,30 @@
+﻿python : WARNING: All log messages before absl::InitializeLog() is called are 
+written to STDERR
+At line:1 char:66
++ ... e-entance"; python temp_model_test.py > temp_model_test_output.txt 2> ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: All lo...itten to STDERR 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+I0000 00:00:1784030488.222215    1252 port.cc:153] oneDNN custom operations 
+are on. You may see slightly different numerical results due to floating-point 
+round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written 
+to STDERR
+I0000 00:00:1784030491.841323    1252 port.cc:153] oneDNN custom operations 
+are on. You may see slightly different numerical results due to floating-point 
+round-off errors from different computation orders. To turn them off, set the 
+environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1784030500.526082    1252 cpu_feature_guard.cc:227] This 
+TensorFlow binary is optimized to use available CPU instructions in 
+performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI 
+AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with 
+the appropriate compiler flags.
+face_ver face_ver
+Ellipsis module face_ver
+custom_objs created
+face_detection_model.keras failed ValueError("Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: Ellipsis (of type <class 'ellipsis'>)")
+face_detection_model.h5 failed TypeError("Could not locate class 'Ellipsis'. Make sure custom classes and functions are decorated with `@keras.saving.register_keras_serializable()`. If they are already decorated, make sure they are all imported so that the decorator is run before trying to load them. Full object config: {'class_name': 'Ellipsis', 'module': 'face_ver', 'config': {}}")

@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/attendance-backend/venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/attendance-backend",
+    "C:/Users/senan/AppData/Local/Programs/Python/Python311/Lib/site-packages"
+  ]
+}
