@@ -42,7 +42,7 @@ except Exception:
 		pose_detector = None
 
 # IP camera URL (edit here)
-ip_url = "http://10.66.250.51:8080/video"
+ip_url = "http://10.66.250.5:8080/video"
 
 # 1. Compatibility: provide a `GetItem` custom layer if the saved model used it.
 class GetItem(tf.keras.layers.Layer):

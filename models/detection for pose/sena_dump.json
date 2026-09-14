@@ -1,47 +1,34 @@
 {
   "working_status": "NOT-WORKING",
-  "timestamp": "2026-08-20T19:07:18.475717+00:00",
-  "timestamp_epoch": 1787252838,
-  "active_workers_count": 1,
+  "timestamp": "2026-08-29T17:20:52.930896+00:00",
+  "timestamp_epoch": 1788024052,
+  "active_workers_count": 0,
   "working_workers_count": 0,
-  "workers": {
-    "18": {
-      "status": "NOT-WORKING",
-      "is_facing_screen": false,
-      "hands_on_keyboard": false,
-      "equipment": {},
-      "bbox": [
-        800,
-        279,
-        1352,
-        1138
-      ],
-      "centroid": [
-        1076,
-        708
-      ]
-    }
-  },
-  "1787252778472": {
+  "workers": {},
+  "1788023152826": {
     "prints": [
       [
-        1787252778188,
+        1788023092444,
         "Loading YOLOv8 Models..."
       ],
       [
-        1787252778304,
+        1788023092611,
         "Loading MediaPipe Pose Landmarker..."
+      ],
+      [
+        1788023101795,
+        "\n>>> Local AI Engine Is Running Successfully! <<<"
       ]
     ],
     "live": {
-      "system_epoch_time": 0,
+      "system_epoch_time": 1788023152.1238384,
       "active_workers_count": 0,
       "workers": {}
     },
     "status": {
       "working_status": "NOT-WORKING",
-      "timestamp": "2026-08-20T19:06:18.472136+00:00",
-      "timestamp_epoch": 1787252778,
+      "timestamp": "2026-08-29T17:05:52.826563+00:00",
+      "timestamp_epoch": 1788023152,
       "active_workers_count": 0,
       "working_workers_count": 0,
       "workers": {}
@@ -49,83 +36,251 @@
   },
   "latest_status": {
     "working_status": "NOT-WORKING",
-    "timestamp": "2026-08-20T19:07:18.475717+00:00",
-    "timestamp_epoch": 1787252838,
-    "active_workers_count": 1,
+    "timestamp": "2026-08-29T17:20:52.930896+00:00",
+    "timestamp_epoch": 1788024052,
+    "active_workers_count": 0,
     "working_workers_count": 0,
-    "workers": {
-      "18": {
-        "status": "NOT-WORKING",
-        "is_facing_screen": false,
-        "hands_on_keyboard": false,
-        "equipment": {},
-        "bbox": [
-          800,
-          279,
-          1352,
-          1138
-        ],
-        "centroid": [
-          1076,
-          708
-        ]
-      }
-    }
+    "workers": {}
   },
-  "latest_status_timestamp": "2026-08-20T19:07:18.475717+00:00",
-  "1787252838475": {
-    "prints": [
-      [
-        1787252779021,
-        "\n>>> Local AI Engine Is Running Successfully! <<<"
-      ]
-    ],
+  "latest_status_timestamp": "2026-08-29T17:20:52.930896+00:00",
+  "1788023212835": {
+    "prints": [],
     "live": {
-      "system_epoch_time": 1787252838.1999414,
-      "active_workers_count": 1,
-      "workers": {
-        "18": {
-          "status": "NOT-WORKING",
-          "is_facing_screen": false,
-          "hands_on_keyboard": false,
-          "equipment": {},
-          "bbox": [
-            800,
-            279,
-            1352,
-            1138
-          ],
-          "centroid": [
-            1076,
-            708
-          ]
-        }
-      }
+      "system_epoch_time": 1788023211.9551396,
+      "active_workers_count": 0,
+      "workers": {}
     },
     "status": {
       "working_status": "NOT-WORKING",
-      "timestamp": "2026-08-20T19:07:18.475717+00:00",
-      "timestamp_epoch": 1787252838,
-      "active_workers_count": 1,
+      "timestamp": "2026-08-29T17:06:52.835605+00:00",
+      "timestamp_epoch": 1788023212,
+      "active_workers_count": 0,
       "working_workers_count": 0,
-      "workers": {
-        "18": {
-          "status": "NOT-WORKING",
-          "is_facing_screen": false,
-          "hands_on_keyboard": false,
-          "equipment": {},
-          "bbox": [
-            800,
-            279,
-            1352,
-            1138
-          ],
-          "centroid": [
-            1076,
-            708
-          ]
-        }
-      }
+      "workers": {}
+    }
+  },
+  "1788023272837": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023272.621775,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:07:52.838148+00:00",
+      "timestamp_epoch": 1788023272,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023332839": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023330.4881425,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:08:52.839656+00:00",
+      "timestamp_epoch": 1788023332,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023392844": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023390.4704094,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:09:52.844954+00:00",
+      "timestamp_epoch": 1788023392,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023452851": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023450.5551133,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:10:52.851326+00:00",
+      "timestamp_epoch": 1788023452,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023512862": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023512.795399,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:11:52.862783+00:00",
+      "timestamp_epoch": 1788023512,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023572877": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:12:52.877591+00:00",
+      "timestamp_epoch": 1788023572,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023632896": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:13:52.896931+00:00",
+      "timestamp_epoch": 1788023632,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023692901": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:14:52.901149+00:00",
+      "timestamp_epoch": 1788023692,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023752903": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:15:52.903681+00:00",
+      "timestamp_epoch": 1788023752,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023812906": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:16:52.906748+00:00",
+      "timestamp_epoch": 1788023812,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023872917": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:17:52.917590+00:00",
+      "timestamp_epoch": 1788023872,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023932926": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:18:52.926882+00:00",
+      "timestamp_epoch": 1788023932,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788023992927": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:19:52.927591+00:00",
+      "timestamp_epoch": 1788023992,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
+    }
+  },
+  "1788024052930": {
+    "prints": [],
+    "live": {
+      "system_epoch_time": 1788023566.7811553,
+      "active_workers_count": 0,
+      "workers": {}
+    },
+    "status": {
+      "working_status": "NOT-WORKING",
+      "timestamp": "2026-08-29T17:20:52.930896+00:00",
+      "timestamp_epoch": 1788024052,
+      "active_workers_count": 0,
+      "working_workers_count": 0,
+      "workers": {}
     }
   }
 }

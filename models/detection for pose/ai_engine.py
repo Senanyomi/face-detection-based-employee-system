@@ -161,7 +161,7 @@ def run_ai_webcam_loop():
     global TRACKER_NEXT_ID, TRACKER_LAST_POS, TRACKER_LAST_UPDATE
     
     # Use your IP webcam stream instead of the laptop camera
-    cap = cv2.VideoCapture("http://10.66.250.244:8080/video")
+    cap = cv2.VideoCapture("http://10.66.250.4:8080/video")
     
     # Set to HD resolution
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)

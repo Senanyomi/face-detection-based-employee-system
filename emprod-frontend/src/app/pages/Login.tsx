@@ -5,7 +5,7 @@ import {api} from '../api';
 import {Loader2, ShieldCheck, Camera, Activity, Lock} from 'lucide-react';
 import {BrandMark} from '../components/BrandMark';
 import {Button} from '../components/ui/button';
-import {Input} from '../components/ui/Input';
+import {Input} from '../components/ui/input';
 import {Label} from '../components/ui/label';
 import {Alert, AlertDescription} from '../components/ui/alert';
 
